@@ -1,13 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.sass';
+import React from 'react'
+import './App.sass'
+import Header from './components/Header/Header'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div className='App'>
+      <Header></Header>
     </div>
   );
 }
 
-export default App;
+export default App
