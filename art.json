@@ -4,36 +4,36 @@
       "icon": "/s1/icon.png",
       "key": "s1",
       "pieces": [
-        {
-          "imageUrl": "/s1/p1.png",
-          "key": "p1",
-          "cols": 1,
-          "rows": 1
-        },
-        {
-          "imageUrl": "/s1/p2.png",
-          "key": "p2",
-          "cols": 1,
-          "rows": 1
-        },
-        {
-          "imageUrl": "/s1/p3.png",
-          "key": "p3",
-          "cols": 1,
-          "rows": 1
-        },
-        {
-          "imageUrl": "/s1/p4.png",
-          "key": "p4",
-          "cols": 1,
-          "rows": 1
-        },
-        {
-          "imageUrl": "/s1/p5.png",
-          "key": "p5",
-          "cols": 1,
-          "rows": 1
-        }
+        { "imageUrl": "/s1/p1.png", "key": "p1", "cols": 2, "rows": 1 },
+        { "imageUrl": "/s1/p2.png", "key": "p2", "cols": 1, "rows": 1 },
+        { "imageUrl": "/s1/p3.png", "key": "p3", "cols": 1, "rows": 1 },
+        { "imageUrl": "/s1/p4.png", "key": "p4", "cols": 1, "rows": 1 },
+        { "imageUrl": "/s1/p5.png", "key": "p5", "cols": 2, "rows": 1 },
+        { "imageUrl": "/s1/p6.png", "key": "p6", "cols": 1, "rows": 1 }
+      ]
+    },
+    {
+      "icon": "/s2/icon.png",
+      "key": "s2",
+      "pieces": [
+        { "imageUrl": "/s2/p1.png", "key": "p1", "cols": 2, "rows": 1 },
+        { "imageUrl": "/s2/p2.png", "key": "p2", "cols": 1, "rows": 1 },
+        { "imageUrl": "/s2/p3.png", "key": "p3", "cols": 1, "rows": 1 },
+        { "imageUrl": "/s2/p4.png", "key": "p4", "cols": 1, "rows": 1 },
+        { "imageUrl": "/s2/p5.png", "key": "p5", "cols": 2, "rows": 1 },
+        { "imageUrl": "/s2/p6.png", "key": "p6", "cols": 1, "rows": 1 }
+      ]
+    },
+    {
+      "icon": "/s3/icon.png",
+      "key": "s3",
+      "pieces": [
+        { "imageUrl": "/s3/p1.png", "key": "p1", "cols": 2, "rows": 1 },
+        { "imageUrl": "/s3/p2.png", "key": "p2", "cols": 1, "rows": 1 },
+        { "imageUrl": "/s3/p3.png", "key": "p3", "cols": 1, "rows": 1 },
+        { "imageUrl": "/s3/p4.png", "key": "p4", "cols": 1, "rows": 1 },
+        { "imageUrl": "/s3/p5.png", "key": "p5", "cols": 2, "rows": 1 },
+        { "imageUrl": "/s3/p6.png", "key": "p6", "cols": 1, "rows": 1 }
       ]
     }
   ]
