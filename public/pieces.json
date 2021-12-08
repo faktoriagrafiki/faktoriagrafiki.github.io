@@ -1,0 +1,16 @@
+{
+  "sections": [
+    {
+      "icon": "/anime/section-icon.png",
+      "name": "",
+      "desc": "",
+      "pieces": [
+        {
+          "imageUrl": "/anime/img-1.png",
+          "name": "",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}
