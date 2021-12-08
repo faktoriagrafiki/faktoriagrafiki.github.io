@@ -1,10 +1,10 @@
 import React from 'react'
 import './ArtPiece.sass'
 
-function ArtPiece() {
+function ArtPiece(props) {
   return (
     <div className='ArtPiece'>
-      ArtPiece
+      {props.piece.key}
     </div>
   )
 }
