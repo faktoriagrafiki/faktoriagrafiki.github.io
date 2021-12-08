@@ -3,9 +3,9 @@ import './Footer.sass'
 
 function Footer() {
   return (
-    <div className='Footer'>
+    <footer className='Footer'>
       Footer
-    </div>
+    </footer>
   )
 }
 

@@ -10,12 +10,12 @@ function Content() {
     fetch('./art.json')
       .then(r => r.json())
       .then(art => setSections(art.sections))
-  }, []) // no conditions -> only called on mount
+  }, [])
 
   return (
-    <div className='Content'>
+    <section className='Content'>
       {sections.map((s, i) => <ArtSection section={s} key={i}></ArtSection>)}
-    </div>
+    </section>
   )
 }
 
