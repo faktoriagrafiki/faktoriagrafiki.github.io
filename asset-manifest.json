@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/faktoriagrafiki.github.io/static/css/main.e95026f5.chunk.css",
+    "main.js": "/faktoriagrafiki.github.io/static/js/main.20a0aaf3.chunk.js",
+    "main.js.map": "/faktoriagrafiki.github.io/static/js/main.20a0aaf3.chunk.js.map",
+    "runtime-main.js": "/faktoriagrafiki.github.io/static/js/runtime-main.176f9b52.js",
+    "runtime-main.js.map": "/faktoriagrafiki.github.io/static/js/runtime-main.176f9b52.js.map",
+    "static/js/2.b684c3d7.chunk.js": "/faktoriagrafiki.github.io/static/js/2.b684c3d7.chunk.js",
+    "static/js/2.b684c3d7.chunk.js.map": "/faktoriagrafiki.github.io/static/js/2.b684c3d7.chunk.js.map",
+    "index.html": "/faktoriagrafiki.github.io/index.html",
+    "static/css/main.e95026f5.chunk.css.map": "/faktoriagrafiki.github.io/static/css/main.e95026f5.chunk.css.map",
+    "static/js/2.b684c3d7.chunk.js.LICENSE.txt": "/faktoriagrafiki.github.io/static/js/2.b684c3d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.176f9b52.js",
+    "static/js/2.b684c3d7.chunk.js",
+    "static/css/main.e95026f5.chunk.css",
+    "static/js/main.20a0aaf3.chunk.js"
+  ]
+}
