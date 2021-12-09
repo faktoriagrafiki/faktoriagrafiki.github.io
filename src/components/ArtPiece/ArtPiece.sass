@@ -12,6 +12,8 @@
   @for $c from 0 through 40
     &.cols-#{$c}
       width: calc(#{$c} * 2.5% - 4px)
+      @media (min-width: 100rem)
+        width: calc(#{$c} * 1.25% - 4px)
       @media (max-width: 40rem)
         width: calc(100% - 4px)
 

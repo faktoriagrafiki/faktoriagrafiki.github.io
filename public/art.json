@@ -1,10 +1,19 @@
 {
   "pieces": [
-    { "image": "/p1.png", "key": "p1", "cols": 2 },
-    { "image": "/p2.png", "key": "p2", "cols": 1 },
-    { "image": "/p3.png", "key": "p3", "cols": 1 },
-    { "image": "/p4.png", "key": "p4", "cols": 1 },
-    { "image": "/p5.png", "key": "p5", "cols": 2 },
-    { "image": "/p6.png", "key": "p6", "cols": 1 }
+    { "image": "/p1.png", "key": "p1", "cols": 2.7 },
+    { "image": "/p2.png", "key": "p2", "cols": 0.6 },
+    { "image": "/p3.png", "key": "p3", "cols": 0.7 },
+    { "image": "/p4.png", "key": "p4", "cols": 1.2 },
+    { "image": "/p5.png", "key": "p5", "cols": 1.8 },
+    { "image": "/p6.png", "key": "p6", "cols": 1 },
+    { "image": "/p7.png", "key": "p7", "cols": 2 },
+    { "image": "/p8.png", "key": "p8", "cols": 2 },
+    { "image": "/p9.png", "key": "p9", "cols": 1.6 },
+    { "image": "/p10.png", "key": "p10", "cols": 0.8 },
+    { "image": "/p11.png", "key": "p11", "cols": 1.6 },
+    { "image": "/p12.png", "key": "p12", "cols": 1.6 },
+    { "image": "/p13.png", "key": "p13", "cols": 2.4 },
+    { "image": "/p14.png", "key": "p14", "cols": 3 },
+    { "image": "/p15.png", "key": "p15", "cols": 1 }
   ] 
 }
