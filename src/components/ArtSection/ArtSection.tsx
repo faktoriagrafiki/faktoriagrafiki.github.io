@@ -3,7 +3,6 @@ import ArtPiece from '../ArtPiece/ArtPiece'
 import './ArtSection.sass'
 
 function ArtSection(props) {
-  console.log(props)
   return (
     <div className='ArtSection'>
       <div className='art-pieces-home'>

@@ -11,9 +11,9 @@
     { "image": "/p9.png", "key": "p9", "cols": 1.6 },
     { "image": "/p10.png", "key": "p10", "cols": 0.8 },
     { "image": "/p11.png", "key": "p11", "cols": 1.6 },
-    { "image": "/p12.png", "key": "p12", "cols": 1.6 },
-    { "image": "/p13.png", "key": "p13", "cols": 2.4 },
-    { "image": "/p14.png", "key": "p14", "cols": 3 },
-    { "image": "/p15.png", "key": "p15", "cols": 1 }
+    { "image": "/p12.png", "key": "p12", "cols": 1.8 },
+    { "image": "/p13.png", "key": "p13", "cols": 2.2 },
+    { "image": "/p14.png", "key": "p14", "cols": 2.8 },
+    { "image": "/p15.png", "key": "p15", "cols": 1.2 }
   ] 
 }

@@ -4,24 +4,27 @@
 .ArtPiece
   
   position: relative
-  margin: 2px
   transition-duration: 200ms
-  transition-property: filter
+  transition-property: filter, clip-path
   transition-timing-function: ease-in
+
+  $gap: 0.4rem
+  margin: $gap
 
   @for $c from 0 through 40
     &.cols-#{$c}
-      width: calc(#{$c} * 2.5% - 4px)
+      width: calc(#{$c} * 2.5% - #{$gap} * 2)
       @media (min-width: 100rem)
-        width: calc(#{$c} * 1.25% - 4px)
+        width: calc(#{$c} * 1.25% - #{$gap} * 2)
       @media (max-width: 40rem)
-        width: calc(100% - 4px)
+        width: calc(100% - #{$gap} * 2)
 
   > img
     transition-duration: 200ms  
     width: 100%
     height: 100%
     object-fit: cover
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)
 
   > label
     transition-duration: 1000ms
@@ -37,7 +40,26 @@
   &:hover
     cursor: zoom-in
     > img
-      filter: blur(0.1rem)
+      filter: blur(0.2rem)
+      clip-path: polygon(1rem 0%, 100% 0, calc(100% - 1rem) 100%, 0% 100%)
     > label
       opacity: 1
       pointer-events: none
+
+
+.art-modal
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.8)
+  cursor: zoom-out
+  z-index: 9999
+
+  > img
+    $m: 0.5rem
+    margin: $m
+    width: calc(100% - #{$m} * 2)
+    height: calc(100% - #{$m} * 2)
+    object-fit: contain
