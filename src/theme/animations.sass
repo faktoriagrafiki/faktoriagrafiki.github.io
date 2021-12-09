@@ -1,0 +1,12 @@
+
+@keyframes kf-fade-in
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+@mixin fade-in($duration: 1s)
+  animation-name: kf-fade-in
+  animation-timing-function: ease-in
+  animation-duration: $duration
+  

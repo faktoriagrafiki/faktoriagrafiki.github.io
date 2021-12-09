@@ -1,5 +1,6 @@
 @import ~./src/theme/const
 @import ~./src/theme/text-outline
+@import ~./src/theme/animations
   
 .ArtPiece
   
@@ -48,6 +49,7 @@
 
 
 .art-modal
+  @include fade-in(0.3s)
   position: fixed
   top: 0
   left: 0
