@@ -2,15 +2,36 @@
 
 .Footer
   background-image: linear-gradient(to top right, $clr-primary-700, $clr-secondary-700)
-  height: 5rem
-  > a.icon-url
-    > img
+  height: auto
+  display: flex
+  justify-content: space-between
+
+  > *
+    height: 100%
+    align-self: center
+  
+  @media ( max-width: 45rem ) 
+    flex-direction: column
+
+  .icon-link-block
+    > a.icon-link
+      > img
+        margin: 0.5rem
+        height: 4rem
+        filter: invert(0.85)
+        mix-blend-mode: overlay
+        transition-duration: 200ms
+        &:hover
+          filter: invert(0.75)
+        &:active
+          filter: invert(0.65)
+
+  .email-block
+    > label
+      display: block
       margin: 0.5rem
+      line-height: 4rem
+      font-size: 2rem
       height: calc(100% - 1rem)
-      filter: invert(0.85)
+      color: $clr-neutral-100
       mix-blend-mode: overlay
-      transition-duration: 200ms
-      &:hover
-        filter: invert(0.75)
-      &:active
-        filter: invert(0.65)
