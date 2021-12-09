@@ -9,12 +9,10 @@
   transition-property: filter
   transition-timing-function: ease-in
 
-  @each $c in (1, 2, 3, 4)
+  @for $c from 0 through 40
     &.cols-#{$c}
-      width: calc(#{$c} * 25% - 4px)
-      @media (max-width: 50rem)
-        width: calc(#{$c} * 50% - 4px)
-      @media (max-width: 35rem)
+      width: calc(#{$c} * 2.5% - 4px)
+      @media (max-width: 40rem)
         width: calc(100% - 4px)
 
   > img
