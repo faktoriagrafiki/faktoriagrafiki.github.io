@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { cond, floor, clamp, randRange } from '../../util/util'
 import './ArtPiece.sass'
 
 function ArtPiece(props) {
 
+  const { t } = useTranslation('art')
   const { cols, image, key } = props.piece
   const fixedCols = floor(clamp(cols * 10, 0, 40))
   const [zoom, setZoom] = useState(false)
@@ -32,7 +34,7 @@ function ArtPiece(props) {
     <>
       <div className={`ArtPiece cols-${fixedCols}`} onClick={toggleZoom} onMouseOver={bigClip} onMouseOut={smallClip} onLoad={smallClip}>
         <img src={`./art/${image}`} alt={key} />
-        <label>{key}</label>
+        <label>{t(`${key}.name`)}</label>
       </div> 
       {cond(zoom, (
         <div className='art-modal' onClick={toggleZoom}>
