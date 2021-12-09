@@ -3,3 +3,14 @@
 .Footer
   background-image: linear-gradient(to top right, $clr-primary-700, $clr-secondary-700)
   height: 5rem
+  > a.icon-url
+    > img
+      margin: 0.5rem
+      height: calc(100% - 1rem)
+      filter: invert(0.85)
+      mix-blend-mode: overlay
+      transition-duration: 200ms
+      &:hover
+        filter: invert(0.75)
+      &:active
+        filter: invert(0.65)
