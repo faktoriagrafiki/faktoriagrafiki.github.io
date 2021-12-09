@@ -14,6 +14,8 @@ function Footer() {
 
   const [ config, setConfig ] = useState({} as any)
 
+  const clip = () => navigator.clipboard.writeText(config.email)
+
   useEffect(() => {
     fetch('./config.json').then(r => r.json()).then(setConfig)
   }, [])
@@ -27,7 +29,7 @@ function Footer() {
         <IconLink args={['./icons/artstation.png', 'artstation', config.urls?.artstation]}></IconLink>
       </div>
       <div className='email-block'>
-        <label>{config.email}</label>
+        <label onClick={clip}>{config.email}</label>
       </div>
     </footer>
   )
