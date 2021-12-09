@@ -4,17 +4,15 @@ import './Content.sass'
 
 function Content() {
   
-  const [sections, setSections] = useState([])
+  const [art, setArt] = useState({})
 
   useEffect(() => {
-    fetch('./art.json')
-      .then(r => r.json())
-      .then(art => setSections(art.sections))
+    fetch('./art.json').then(r => r.json()).then(setArt)
   }, [])
 
   return (
     <section className='Content'>
-      {sections.map((s, i) => <ArtSection section={s} key={i}></ArtSection>)}
+      <ArtSection art={art}></ArtSection>
     </section>
   )
 }
