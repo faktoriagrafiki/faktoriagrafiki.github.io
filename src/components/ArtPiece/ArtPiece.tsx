@@ -1,15 +1,36 @@
 import React, { useState } from 'react'
-import { cond } from '../../util/util'
+import { cond, floor, clamp, randRange } from '../../util/util'
 import './ArtPiece.sass'
 
 function ArtPiece(props) {
+
   const { cols, image, key } = props.piece
-  const fixedCols = Math.floor((cols > 4 ? 4 : cols)  * 10)
+  const fixedCols = floor(clamp(cols * 10, 0, 40))
   const [zoom, setZoom] = useState(false)
   const toggleZoom = () => setZoom(!zoom)
+
+  const randomClipPath = (offset) => (`
+    polygon(
+      ${randRange(0, offset)}% ${randRange(0, offset)}%, 
+      ${randRange(100 - offset, 100)}% ${randRange(0, offset)}%, 
+      ${randRange(100 - offset, 100)}% ${randRange(100 - offset, 100)}%,
+      ${randRange(0, offset)}% ${randRange(100 - offset, 100)}%
+    )
+  `)
+
+  const bigClip = e => {
+    const img = e.target as HTMLImageElement
+    img.style.clipPath = randomClipPath(5)
+  }
+
+  const smallClip = e => {
+    const img = e.target as HTMLImageElement
+    img.style.clipPath = randomClipPath(2)
+  }
+
   return (
     <>
-      <div className={`ArtPiece cols-${fixedCols}`} onClick={toggleZoom}>
+      <div className={`ArtPiece cols-${fixedCols}`} onClick={toggleZoom} onMouseOver={bigClip} onMouseOut={smallClip} onLoad={smallClip}>
         <img src={`./art/${image}`} alt={key} />
         <label>{key}</label>
       </div> 
