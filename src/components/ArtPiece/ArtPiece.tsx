@@ -42,16 +42,7 @@ function ArtPiece(props) {
           </div>
           <div className='description-holder'>
             <h1>{t(`${key}.name`)}</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Non possimus distinctio odit sint molestiae aliquam ipsam.
-              Quasi sequi reprehenderit recusandae dicta non, corporis quisquam sed? 
-            </p>
-            <p>
-              Nulla perferendis unde reiciendis illo, pariatur velit tenetur voluptate sed nesciunt 
-              temporibus sunt quibusdam incidunt beatae ad at vitae enim, vel doloribus omnis sapiente natus, 
-              laudantium fugit porro. Minus ad possimus vel magni officiis itaque!.
-            </p>
+            <p>{t(`${key}.desc`)}</p>
           </div>
         </div>
       ))}
