@@ -58,20 +58,24 @@
   display: flex
 
   @media ( orientation: landscape )
-    flex-direction: row      
+    flex-direction: row    
+    .img-holder
+      width: 70%  
     .description-holder
       width: 30%
+      font-size: calc(min(1.2rem, 3vh))
 
   @media ( orientation: portrait )
     flex-direction: column
+    .img-holder
+      height: 60%
     .description-holder
-      height: 50%
-      min-height: fit-content
+      height: 40%
+      font-size: calc(min(1.2rem, 2vh))
 
   .img-holder
     background-color: rgba(0, 0, 0, 0.8)
     cursor: zoom-out
-    flex-basis: 100%
 
     > img
       $m: 0.5rem
@@ -82,8 +86,10 @@
 
   .description-holder
     background-color: $clr-light
-    padding: 0.5rem
+    padding: 1rem
     > h1
       text-align: center
     > p
-      margin-top: 0.5rem
+      margin-top: 1rem
+      text-align: justify
+      text-justify: inter-word
