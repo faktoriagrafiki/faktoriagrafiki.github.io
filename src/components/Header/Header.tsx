@@ -6,8 +6,8 @@ function Header() {
   const { t } = useTranslation('common')
   return (
     <header className='Header'>
-      <h3>{t('header.nameAndSurname')}</h3>
       <h1>{t('header.companyName')}</h1>
+      <h3>{t('header.nameAndSurname')}</h3>
     </header>
   )
 }
