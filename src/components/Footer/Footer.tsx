@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { load } from '../../util/util'
 import './Footer.sass'
 
 function IconLink(props) {
@@ -17,7 +18,7 @@ function Footer() {
   const clip = () => navigator.clipboard.writeText(config.email)
 
   useEffect(() => {
-    fetch('./config.json').then(r => r.json()).then(setConfig)
+    load('./config.json', setConfig)
   }, [])
 
   return (

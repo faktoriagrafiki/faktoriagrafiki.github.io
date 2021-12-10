@@ -16,3 +16,7 @@ export const clamp = (curr: number, min: number, max: number) => {
 export const floor = v => Math.floor(v)
 
 export const randRange = (min, max) => Math.random() * (max - min) + min
+
+export const load = (path, setter) => {
+  fetch(path).then(r => r.json()).then(setter)
+}

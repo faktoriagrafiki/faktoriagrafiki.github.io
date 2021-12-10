@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { load } from '../../util/util';
 import ArtSection from '../ArtSection/ArtSection';
 import './Content.sass'
 
@@ -7,7 +8,7 @@ function Content() {
   const [art, setArt] = useState({})
 
   useEffect(() => {
-    fetch('./art.json').then(r => r.json()).then(setArt)
+    load('./art.json', setArt)
   }, [])
 
   return (
