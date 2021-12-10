@@ -1,7 +1,7 @@
 @import ~./src/theme/const
 
 .Footer
-  background-image: linear-gradient(to top right, $clr-primary-700, $clr-secondary-700)
+  background-color: $clr-dark
   height: auto
   display: flex
   justify-content: space-between
@@ -14,20 +14,19 @@
     flex-direction: column
 
   @mixin active-contact-item()
-    mix-blend-mode: overlay
     transition-duration: 200ms
     cursor: pointer
     &:hover
-      opacity: 0.5
+      opacity: 0.6
     &:active
-      opacity: 0.3
+      opacity: 0.4
 
   .icon-link-block
     > a.icon-link
       > img
-        margin: 0.5rem
-        height: 4rem
-        filter: invert(0.85)
+        margin: 1rem
+        height: 3rem
+        filter: invert(1)
         @include active-contact-item()
 
   .email-block
@@ -37,5 +36,5 @@
       line-height: 4rem
       font-size: 2rem
       height: 4rem
-      color: $clr-neutral-100
+      color: $clr-light
       @include active-contact-item()
