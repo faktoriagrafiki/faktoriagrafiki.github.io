@@ -1,19 +1,32 @@
 {
   "pieces": [
-    { "image": "/p1.png", "key": "p1", "cols": 2.7 },
-    { "image": "/p2.png", "key": "p2", "cols": 0.6 },
-    { "image": "/p3.png", "key": "p3", "cols": 0.7 },
-    { "image": "/p4.png", "key": "p4", "cols": 1.2 },
-    { "image": "/p5.png", "key": "p5", "cols": 1.8 },
-    { "image": "/p6.png", "key": "p6", "cols": 1 },
-    { "image": "/p7.png", "key": "p7", "cols": 2 },
-    { "image": "/p8.png", "key": "p8", "cols": 2 },
-    { "image": "/p9.png", "key": "p9", "cols": 1.6 },
-    { "image": "/p10.png", "key": "p10", "cols": 0.8 },
-    { "image": "/p11.png", "key": "p11", "cols": 1.6 },
-    { "image": "/p12.png", "key": "p12", "cols": 1.8 },
-    { "image": "/p13.png", "key": "p13", "cols": 2.2 },
-    { "image": "/p14.png", "key": "p14", "cols": 2.8 },
-    { "image": "/p15.png", "key": "p15", "cols": 1.2 }
+
+    { "image": "/girl4.png", "key": "girl4", "cols": 0.9 },
+    { "image": "/azariel.png", "key": "azariel", "cols": 1.2 },
+    { "image": "/environment.png", "key": "environment", "cols": 1.9 },
+
+    { "image": "/sarya2.png", "key": "sarya2", "cols": 2 },
+    { "image": "/bastien1.png", "key": "bastien1", "cols": 2 },
+
+    { "image": "/sarya1.png", "key": "sarya1", "cols": 1.7 },
+    { "image": "/castle.png", "key": "castle", "cols": 2.3 },
+
+    { "image": "/bastien2.png", "key": "bastien2", "cols": 1.2 },
+    { "image": "/girl1.png", "key": "girl1", "cols": 0.9 },
+    { "image": "/girl3.png", "key": "girl3", "cols": 0.9 },
+    { "image": "/girl5.png", "key": "girl5", "cols": 1 },
+
+    { "image": "/mine.png", "key": "mine", "cols": 1.8 },
+    { "image": "/bastien3.png", "key": "bastien3", "cols": 1.3 },
+    { "image": "/mira.png", "key": "mira", "cols": 0.9 },
+
+    { "image": "/monster.png", "key": "monster", "cols": 1.7 },
+    { "image": "/obelisk.png", "key": "obelisk", "cols": 1.2 },
+    { "image": "/druid.png", "key": "druid", "cols": 1.1 },
+
+    { "image": "/princess.png", "key": "princess", "cols": 0.9 },
+    { "image": "/steele.png", "key": "steele", "cols": 1 },
+    { "image": "/girl2.png", "key": "girl2", "cols": 0.9 },
+    { "image": "/witch.png", "key": "witch", "cols": 1.2 }
   ] 
 }

@@ -41,9 +41,17 @@ function ArtPiece(props) {
             <img src={`./art/${image}`} alt={key} />
           </div>
           <div className='description-holder'>
-            <h1>lorem</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis odit minima inventore deserunt maxime velit, harum beatae placeat praesentium quo commodi exercitationem tempore neque, vitae aspernatur reiciendis quisquam laborum! Fugiat.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repellat natus vitae labore. Distinctio dolore explicabo amet est recusandae provident enim officiis temporibus aperiam voluptatibus soluta quas, tempore quibusdam nihil?</p>
+            <h1>{t(`${key}.name`)}</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Non possimus distinctio odit sint molestiae aliquam ipsam.
+              Quasi sequi reprehenderit recusandae dicta non, corporis quisquam sed? 
+            </p>
+            <p>
+              Nulla perferendis unde reiciendis illo, pariatur velit tenetur voluptate sed nesciunt 
+              temporibus sunt quibusdam incidunt beatae ad at vitae enim, vel doloribus omnis sapiente natus, 
+              laudantium fugit porro. Minus ad possimus vel magni officiis itaque!.
+            </p>
           </div>
         </div>
       ))}

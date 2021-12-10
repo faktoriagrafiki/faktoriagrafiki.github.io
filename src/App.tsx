@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './App.sass'
 import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
