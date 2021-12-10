@@ -12,8 +12,8 @@ function ArtPiece(props) {
   const toggleZoom = () => setZoom(!zoom)
 
   const randomClipPath = o => {
-    const rs = () => r(0, o)
-    const re = () => r(100 - o, 100)
+    const rs = () => r(0.5 * o, o)
+    const re = () => r(100 - o, 100 - 0.5 * o)
     return `polygon(
       ${rs()}% ${rs()}%,
       ${re()}% ${rs()}%,
