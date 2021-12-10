@@ -5,7 +5,18 @@
   padding: 0.25em
   display: flex
   justify-content: space-between
+
   > span
+
+    > img 
+      margin: 0.5rem
+      height: 1.8rem
+      width: 3rem
+      outline: 0.5px solid $clr-dark
+      @include active-item()
+      &:not(.active)
+        filter: grayscale(100%)        
+      
     > label
       font-size: 1.5rem
       display: block

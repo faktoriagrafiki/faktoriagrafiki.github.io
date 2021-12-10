@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom'
 import './index.sass'
 import App from './App'
 import i18next from 'i18next';
-import { in18config } from './i18.config';
+import { i18config } from './i18.config';
 import { I18nextProvider } from 'react-i18next';
 
-i18next.init(in18config);
+i18next.init(i18config);
 
 ReactDOM.render(
   <React.StrictMode>

@@ -4,7 +4,7 @@ import plCommon from './locales/pl.common.json'
 import plArt from './locales/pl.art.json'
 
 
-export const in18config = {
+export const i18config = {
   interpolation: { 
     escapeValue: false 
   },
