@@ -47,6 +47,15 @@
       pointer-events: none
       z-index: 1000
 
+//  <div className='art-modal'>
+//           <div className='img-holder' onClick={toggleZoom}>
+//             <img src={`./art/${image}`} alt={key} />
+//           </div>
+//           <div className='description-holder'>
+            
+//           </div>
+//         </div>
+
 
 .art-modal
   @include fade-in(0.2s)
@@ -55,13 +64,36 @@
   left: 0
   width: 100%
   height: 100%
-  background-color: rgba(0, 0, 0, 0.8)
-  cursor: zoom-out
   z-index: 2000
+  display: flex
 
-  > img
-    $m: 0.5rem
-    margin: $m
-    width: calc(100% - #{$m} * 2)
-    height: calc(100% - #{$m} * 2)
-    object-fit: contain
+  @media ( orientation: landscape )
+    flex-direction: row      
+    .description-holder
+      width: 30%
+
+  @media ( orientation: portrait )
+    flex-direction: column
+    .description-holder
+      height: 50%
+      min-height: fit-content
+
+  .img-holder
+    background-color: rgba(0, 0, 0, 0.8)
+    cursor: zoom-out
+    flex-basis: 100%
+
+    > img
+      $m: 0.5rem
+      margin: $m
+      width: calc(100% - #{$m} * 2)
+      height: calc(100% - #{$m} * 2)
+      object-fit: contain
+
+  .description-holder
+    background-color: $clr-light
+    padding: 0.5rem
+    > h1
+      text-align: center
+    > p
+      margin-top: 0.5rem
