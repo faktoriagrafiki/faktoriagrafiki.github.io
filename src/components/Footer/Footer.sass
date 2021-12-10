@@ -1,4 +1,5 @@
 @import ~./src/theme/const
+@import ~./src/theme/util
 
 .Footer
   background-color: $clr-dark
@@ -13,21 +14,13 @@
   @media ( max-width: 45rem ) 
     flex-direction: column
 
-  @mixin active-contact-item()
-    transition-duration: 200ms
-    cursor: pointer
-    &:hover
-      opacity: 0.6
-    &:active
-      opacity: 0.4
-
   .icon-link-block
     > a.icon-link
       > img
         margin: 1rem
         height: 3rem
         filter: invert(1)
-        @include active-contact-item()
+        @include active-item()
 
   .email-block
     > label
@@ -37,4 +30,4 @@
       font-size: 2rem
       height: 4rem
       color: $clr-light
-      @include active-contact-item()
+      @include active-item()

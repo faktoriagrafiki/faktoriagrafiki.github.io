@@ -2,3 +2,11 @@
 
 @mixin outline($color)
   text-shadow: -1px -1px 0 #{$color}, 1px -1px 0 #{$color}, -1px 1px 0 #{$color}, 1px 1px 0 #{$color}
+
+@mixin active-item()
+  transition-duration: 200ms
+  cursor: pointer
+  &:hover
+    opacity: 0.6
+  &:active
+    opacity: 0.4

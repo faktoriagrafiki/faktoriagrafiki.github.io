@@ -1,0 +1,13 @@
+@import ~./src/theme/const
+@import ~./src/theme/util
+
+.Nav
+  padding: 0.25em
+  display: flex
+  justify-content: space-between
+  > span
+    > label
+      font-size: 1.5rem
+      display: block
+      @include active-item()
+        
