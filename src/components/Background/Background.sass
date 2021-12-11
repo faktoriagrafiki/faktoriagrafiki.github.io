@@ -1,0 +1,39 @@
+@import ~./src/theme/const
+
+.Background
+
+  position: absolute
+  top: 0rem
+  left: 0rem
+  z-index: -2000
+  height: 70rem
+  width: 100%
+  overflow: hidden
+
+  .circle
+
+    position: absolute
+    display: block
+    background-color: $clr-neutral-b
+    border-radius: 50%
+    z-index: -1000
+    @mixin position($x, $y, $r)
+      left: calc(#{$x} - #{$r})
+      top: calc(#{$y} - #{$r})
+      $size: calc(2 * #{$r})
+      width: $size
+      height: $size
+
+    &.a
+      @include position(0rem, 0rem, 20rem)
+    &.b
+      @include position(20rem, -5rem, 15rem)
+    &.c
+      @include position(-5rem, 20rem, 10rem)
+    &.d
+      @include position(100vw, 30rem, 5rem)
+    &.e
+      @include position(100vw, 40rem, 10rem)
+    &.f
+      @include position(0vw, 65rem, 5rem)
+
