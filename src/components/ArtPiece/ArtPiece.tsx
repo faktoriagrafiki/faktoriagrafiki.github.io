@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { clearParams, deleteParam, getParam, setParam } from '../../util/url'
+import { deleteParam, getParam, setParam } from '../../util/url'
 import { cond, floor, clamp, randRange as r } from '../../util/util'
 import './ArtPiece.sass'
 
