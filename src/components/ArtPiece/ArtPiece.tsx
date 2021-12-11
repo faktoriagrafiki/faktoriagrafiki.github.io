@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { cond, floor, clamp, randRange as r } from '../../util/util'
 import './ArtPiece.sass'
@@ -9,7 +9,23 @@ function ArtPiece(props) {
   const { cols, image, key } = props.piece
   const fixedCols = floor(clamp(cols * 10, 0, 40))
   const [zoom, setZoom] = useState(false)
-  const toggleZoom = () => setZoom(!zoom)
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    if (params.get('p') === key) {
+      expand()
+    }
+  }, [])
+
+  const expand = () => {
+    window.history.replaceState({}, '', `?p=${key}`)
+    setZoom(true)
+  }
+
+  const collapse = () => {
+    window.history.replaceState({}, '', './');
+    setZoom(false)
+  }
 
   const randomClipPath = o => {
     const rs = () => r(0.5 * o, o)
@@ -31,13 +47,13 @@ function ArtPiece(props) {
 
   return (
     <>
-      <div className={`ArtPiece cols-${fixedCols}`} onClick={toggleZoom} onMouseOver={clip(5)} onMouseOut={clip(2)} onLoad={clip(2)}>
+      <div className={`ArtPiece cols-${fixedCols}`} onClick={expand} onMouseOver={clip(5)} onMouseOut={clip(2)} onLoad={clip(2)}>
         <img src={`./art/${image}`} alt={key} />
         <label>{t(`${key}.name`)}</label>
       </div> 
       {cond(zoom, (
         <div className='art-modal'>
-          <div className='img-holder' onClick={toggleZoom}>
+          <div className='img-holder' onClick={collapse}>
             <img src={`./art/${image}`} alt={key} />
           </div>
           <div className='description-holder'>
