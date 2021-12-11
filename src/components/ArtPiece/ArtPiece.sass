@@ -60,6 +60,7 @@
   @media ( orientation: landscape )
     flex-direction: row    
     .img-holder
+      flex-basis: 100%
       width: 70%  
     .description-holder
       width: 30%
@@ -70,7 +71,8 @@
     .img-holder
       height: 60%
     .description-holder
-      height: 50% // prevents empty areas on phones where the address bar hides causing the screen to have height greater than 100%
+      flex-basis: 100%
+      height: 100%
       font-size: calc(min(1.2rem, 2vh))
 
   .img-holder
@@ -88,6 +90,7 @@
   .description-holder
     background-color: $clr-light
     padding: 1rem
+    
     > h1
       text-align: center
     > p
