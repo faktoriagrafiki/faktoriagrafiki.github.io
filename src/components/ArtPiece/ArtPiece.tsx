@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { clearParams, deleteParam, getParam, setParam } from '../../util/url'
 import { cond, floor, clamp, randRange as r } from '../../util/util'
 import './ArtPiece.sass'
 
@@ -11,19 +12,18 @@ function ArtPiece(props) {
   const [zoom, setZoom] = useState(false)
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search)
-    if (params.get('p') === key) {
+    if (getParam('p') === key) {
       expand()
     }
   }, [])
 
   const expand = () => {
-    window.history.replaceState({}, '', `?p=${key}`)
+    setParam('p', key)
     setZoom(true)
   }
 
   const collapse = () => {
-    window.history.replaceState({}, '', './');
+    deleteParam('p')
     setZoom(false)
   }
 
