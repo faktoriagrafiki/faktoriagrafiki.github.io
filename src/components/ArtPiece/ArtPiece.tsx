@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { SwipeHandler } from '../../util/swipe'
 import { deleteParam, getParam, setParam } from '../../util/url'
 import { cond, floor, clamp, randRange as r } from '../../util/util'
 import './ArtPiece.sass'
@@ -10,11 +11,14 @@ function ArtPiece(props) {
   const { cols, image, key } = props.piece
   const fixedCols = floor(clamp(cols * 10, 0, 40))
   const [zoom, setZoom] = useState(false)
+  const [sh] = useState(new SwipeHandler()) 
 
   useEffect(() => {
+    sh.up = () => collapse()
     if (getParam('p') === key) {
       expand()
     }
+  // eslint-disable-next-line
   }, [])
 
   const expand = () => {
@@ -53,7 +57,7 @@ function ArtPiece(props) {
       </div> 
       {cond(zoom, (
         <div className='art-modal'>
-          <div className='img-holder' onClick={collapse}>
+          <div className='img-holder' onClick={collapse} onTouchStart={sh.start} onTouchMove={sh.move} onTouchEnd={sh.end}>
             <img src={`./art/${image}`} alt={key} />
           </div>
           <div className='description-holder'>
