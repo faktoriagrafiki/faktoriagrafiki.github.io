@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { SwipeHandler } from '../../util/swipe'
 import { deleteParam, getParam, setParam } from '../../util/url'
 import { cond, floor, clamp, randRange as r } from '../../util/util'
 import './ArtPiece.sass'
