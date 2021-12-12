@@ -39,6 +39,7 @@ export class SwipeHandler {
       const dy = this.my - this.sy
       const vertical = Math.abs(dx) < Math.abs(dy)
       const horisontal = !vertical
+      this.reset()
       if (vertical) {
         if (dy < 0) {
           this.up()
