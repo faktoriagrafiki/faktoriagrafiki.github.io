@@ -11,10 +11,8 @@ function ArtPiece(props) {
   const { cols, image, key } = props.piece
   const fixedCols = floor(clamp(cols * 10, 0, 40))
   const [zoom, setZoom] = useState(false)
-  const [sh] = useState(new SwipeHandler()) 
 
   useEffect(() => {
-    sh.up = () => collapse()
     if (getParam('p') === key) {
       expand()
     }
@@ -57,7 +55,7 @@ function ArtPiece(props) {
       </div> 
       {cond(zoom, (
         <div className='art-modal'>
-          <div className='img-holder' onClick={collapse} onTouchStart={sh.start} onTouchMove={sh.move} onTouchEnd={sh.end}>
+          <div className='img-holder' onClick={collapse}>
             <img src={`./art/${image}`} alt={key} />
           </div>
           <div className='description-holder'>
