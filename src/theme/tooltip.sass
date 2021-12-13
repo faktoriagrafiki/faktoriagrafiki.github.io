@@ -1,0 +1,37 @@
+@import ./const
+  
+.tooltip-handle
+  
+  position: relative
+
+  .tooltip 
+    $r: 1rem
+    font-size: 1rem
+    position: absolute
+    display: block
+    opacity: 0
+    padding: $r
+    background-color: $clr-dark
+    color: $clr-light
+    transition-duration: 300ms
+    pointer-events: none
+    z-index: 3000
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.5)
+    white-space: nowrap
+    
+    &.left
+      border-top-left-radius: $r
+      border-bottom-left-radius: $r
+    &.right
+      border-top-right-radius: $r
+      border-bottom-right-radius: $r
+    &.top
+      border-top-left-radius: $r
+      border-top-right-radius: $r
+    &.bottom
+      border-bottom-left-radius: $r
+      border-bottom-right-radius: $r    
+
+  // display tooltip when previous sibling hovered
+  *:hover + .tooltip 
+    opacity: 1

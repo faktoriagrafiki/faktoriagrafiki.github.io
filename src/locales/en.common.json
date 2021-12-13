@@ -2,6 +2,19 @@
   "header": {
     "nameAndSurname": "Kamila Wera",
     "companyName": "Graphics Post",
-    "contact": "Contact"
+    "contact": "Contact",
+    "flag": {
+      "en": "English",
+      "pl": "Polish"
+    }
+  },
+  "footer": {
+    "icon": {
+      "facebook": "Facebook",
+      "linkedin": "Linkedin",
+      "instagram": "Instagram",
+      "artstation": "ArtStation"
+    },
+    "copyToClipboard": "Copy to clipboard"
   }
 }

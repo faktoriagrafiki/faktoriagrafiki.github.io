@@ -2,6 +2,19 @@
   "header": {
     "nameAndSurname": "Kamila Wera",
     "companyName": "Faktoria Grafiki",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "flag": {
+      "en": "Angielski",
+      "pl": "Polski"
+    }
+  },
+  "footer": {
+    "icon": {
+      "facebook": "Facebook",
+      "linkedin": "Linkedin",
+      "instagram": "Instagram",
+      "artstation": "ArtStation"
+    },
+    "copyToClipboard": "Kopiuj do schowka"
   }
 }
