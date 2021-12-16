@@ -1,6 +1,73 @@
 {
-  "girl4": {
-    "name": "Test name",
-    "desc": "Test description"
+  "azariel": {
+    "name": "Vampire emperor"
+  },
+  "environment": {
+    "name": "Moutain enviroment"
+  },
+  "helena": {
+    "name": "Helena",
+    "desc": "Castlevania OC."
+  },
+  "bastien1": {
+    "name": "Bastien Laurent",
+    "desc": "Character concept art made for proprietary book."
+  },
+  "sarya1": {
+    "name": "Sarya",
+    "desc": "Character concept art made for proprietary book."
+  },
+  "castle": {
+    "name": "Lone castle in the mountains"
+  },
+  "elf": {
+    "name": "Elf design"
+  },
+  "girl1": {
+    "name": "Woman in a satin dress"
+  },
+  "girl3": {
+    "name": "Turban girl portrait"
+  },
+  "girl5": {
+    "name": "Girl in a golden crown"
+  },
+  "mine": {
+    "name": "Futuristic mine"
+  },
+  "alucard": {
+    "name": "Alucard and the orphans"
+  },
+  "mira": {
+    "name": "Mira Katsura",
+    "desc": "Naturo OC."
+  },
+  "monster": {
+    "name": "Bakeneko",
+    "desc": "Japanese folklore inspired."
+  },
+  "obelisk": {
+    "name": "Canyon Portal",
+    "desc": "Concept art."
+  },
+  "druid": {
+    "name": "Forest keeper",
+    "desc": "Concept art."
+  },
+  "princess": {
+    "name": "Nadia",
+    "desc": "Slavic Disney princess."
+  },
+  "steele": {
+    "name": "Peter Steele's portrait"
+  },
+  "girl2": {
+    "name": "Barocco"
+  },
+  "witch": {
+    "name": "Necromancer"
+  },
+  "girl6": {
+    "name": "Gentleness"
   }
 }

@@ -1,6 +1,74 @@
 {
-  "girl4": {
-    "name": "Testowa nazwa",
-    "desc": "Testowy opis"
+  "azariel": {
+    "name": "Wampirzy cesarz"
+  },
+  "environment": {
+    "name": "Górzysty krajobraz"
+  },
+  "helena": {
+    "name": "Helena",
+    "desc": "OC do uniwersum Castlevanii."
+  },
+  "bastien1": {
+    "name": "Bastien Laurent",
+    "desc": "Grafika koncepcyjna postaci do autorskiego opowiadania fantasy/science fiction."
+  },
+  "sarya1": {
+    "name": "Sarya",
+    "desc": "Grafika koncepcyjna postaci do autorskiego opowiadania fantasy/science fiction."
+  },
+  "castle": {
+    "name": "Samotny zamek w górach"
+  },
+  "elf": {
+    "name": "Projekt elfa"
+  },
+  "girl1": {
+    "name": "Kobieta w satynowej koszuli"
+  },
+  "girl3": {
+    "name": "Portret dziewczyny w turbanie"
+  },
+  "girl5": {
+    "name": "Dziewczyna w złotej koronie"
+  },
+  "mine": {
+    "name": "Futurystyczna kopalnia"
+  },
+  "alucard": {
+    "name": "Alucard i sieroty",
+    "desc": "Ilustracja fanowska z uniwersum Castlevanii."
+  },
+  "mira": {
+    "name": "Mira Katsura",
+    "desc": "OC do uniwersum Naruto."
+  },
+  "monster": {
+    "name": "Bakeneko",
+    "desc": "Grafika inspirowana japońskim folklorem."
+  },
+  "obelisk": {
+    "name": "Portal w kanionie",
+    "desc": "Grafika koncepcyjna."
+  },
+  "druid": {
+    "name": "Strażnik lasu",
+    "desc": "Grafika koncepcyjna."
+  },
+  "princess": {
+    "name": "Nadia",
+    "desc": "Słowiańska księżniczka wykonana kreską Walta Disneya."
+  },
+  "steele": {
+    "name": "Portret Petera Steela"
+  },
+  "girl2": {
+    "name": "Barok"
+  },
+  "witch": {
+    "name": "Nekromantka"
+  },
+  "girl6": {
+    "name": "Delikatność"
   }
 }

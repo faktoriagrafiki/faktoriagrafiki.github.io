@@ -9,6 +9,7 @@ export const i18config = {
     escapeValue: false 
   },
   lng: 'pl',
+  fallbackLng: ['en', 'pl'],
   resources: {
     en: {
       common: enCommon,
