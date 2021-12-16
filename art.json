@@ -5,19 +5,19 @@
     { "image": "/azariel.png", "key": "azariel", "cols": 1.2 },
     { "image": "/environment.png", "key": "environment", "cols": 1.9 },
 
-    { "image": "/sarya2.png", "key": "sarya2", "cols": 2 },
+    { "image": "/helena.png", "key": "helena", "cols": 2 },
     { "image": "/bastien1.png", "key": "bastien1", "cols": 2 },
 
     { "image": "/sarya1.png", "key": "sarya1", "cols": 1.7 },
     { "image": "/castle.png", "key": "castle", "cols": 2.3 },
 
-    { "image": "/bastien2.png", "key": "bastien2", "cols": 1.2 },
+    { "image": "/elf.png", "key": "elf", "cols": 1.2 },
     { "image": "/girl1.png", "key": "girl1", "cols": 0.9 },
     { "image": "/girl3.png", "key": "girl3", "cols": 0.9 },
     { "image": "/girl5.png", "key": "girl5", "cols": 1 },
 
     { "image": "/mine.png", "key": "mine", "cols": 1.8 },
-    { "image": "/bastien3.png", "key": "bastien3", "cols": 1.3 },
+    { "image": "/alucard.png", "key": "alucard", "cols": 1.3 },
     { "image": "/mira.png", "key": "mira", "cols": 0.9 },
 
     { "image": "/monster.png", "key": "monster", "cols": 1.7 },
@@ -27,6 +27,8 @@
     { "image": "/princess.png", "key": "princess", "cols": 0.9 },
     { "image": "/steele.png", "key": "steele", "cols": 1 },
     { "image": "/girl2.png", "key": "girl2", "cols": 0.9 },
-    { "image": "/witch.png", "key": "witch", "cols": 1.2 }
+    { "image": "/witch.png", "key": "witch", "cols": 1.2 },
+
+    { "image": "/girl6.png", "key": "girl6", "cols": 1.4}
   ] 
 }
