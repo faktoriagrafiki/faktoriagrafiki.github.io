@@ -17,6 +17,21 @@
     background-color: $clr-neutral-b
     border-radius: 50%
     z-index: -1000
+
+    @keyframes size-change
+      0% 
+        transform: scale(0.9)
+      100% 
+        transform: scale(1.1)
+
+    @mixin animate($duration, $delay)
+      animation-duration: $duration
+      animation-delay: $delay
+      animation-name: size-change
+      animation-timing-function: ease-in-out
+      animation-iteration-count: infinite
+      animation-direction: alternate
+
     @mixin position($x, $y, $r)
       left: calc(#{$x} - #{$r})
       top: calc(#{$y} - #{$r})
@@ -26,14 +41,19 @@
 
     &.a
       @include position(0rem, 0rem, 20rem)
+      @include animate(3s, -100s)
     &.b
       @include position(20rem, -5rem, 15rem)
+      @include animate(3.5s, -100s)
     &.c
       @include position(-5rem, 20rem, 10rem)
+      @include animate(4s, -100s)
     &.d
       @include position(100vw, 30rem, 5rem)
+      @include animate(2s, -100s)
     &.e
       @include position(100vw, 40rem, 10rem)
+      @include animate(6s, -100s)
     &.f
       @include position(0vw, 65rem, 5rem)
-
+      @include animate(5s, -100s)

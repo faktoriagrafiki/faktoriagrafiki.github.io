@@ -31,11 +31,11 @@ function Nav() {
     <nav className='Nav'>
       <span>
         {['en', 'pl'].map(key => (
-          <span className='tooltip-handle'>
+          <span className='tooltip-handle' key={key}>
             <img 
               className={i18next.language === key ? 'active' : ''}
               src={`./icons/flag_${key}.png`} alt={`${key} flag`} 
-              key={key} onClick={toLang(key)} 
+              onClick={toLang(key)} 
             ></img>
             <span className='tooltip bottom right flag-tooltip'>
               {t(`header.flag.${key}`)}
