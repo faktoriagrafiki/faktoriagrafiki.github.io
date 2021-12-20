@@ -3,6 +3,7 @@ import i18next from 'i18next'
 import { useTranslation } from 'react-i18next'
 import './Nav.sass'
 import { getParam, setParam } from '../../util/url'
+import cx from 'classnames';
 
 function Nav() {
 
@@ -33,7 +34,7 @@ function Nav() {
         {['en', 'pl'].map(key => (
           <span className='tooltip-handle' key={key}>
             <img 
-              className={i18next.language === key ? 'active' : ''}
+              className={cx({ active: i18next.language === key })}
               src={`./icons/flag_${key}.png`} alt={`${key} flag`} 
               onClick={toLang(key)} 
             ></img>
