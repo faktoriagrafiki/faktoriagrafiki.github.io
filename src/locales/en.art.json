@@ -1,9 +1,15 @@
 {
+  "girl4": {
+    "name": "Wet portrait",
+    "desc": " "
+  },
   "azariel": {
-    "name": "Vampire emperor"
+    "name": "Vampire emperor",
+    "desc": " "
   },
   "environment": {
-    "name": "Moutain enviroment"
+    "name": "Moutain enviroment",
+    "desc": " "
   },
   "helena": {
     "name": "Helena",
@@ -18,25 +24,32 @@
     "desc": "Character concept art made for proprietary book."
   },
   "castle": {
-    "name": "Lone castle in the mountains"
+    "name": "Lone castle in the mountains",
+    "desc": " "
   },
   "elf": {
-    "name": "Elf design"
+    "name": "Elf design",
+    "desc": " "
   },
   "girl1": {
-    "name": "Woman in a satin dress"
+    "name": "Woman in a satin dress",
+    "desc": " "
   },
   "girl3": {
-    "name": "Turban girl portrait"
+    "name": "Turban girl portrait",
+    "desc": " "
   },
   "girl5": {
-    "name": "Girl in a golden crown"
+    "name": "Girl in a golden crown",
+    "desc": " "
   },
   "mine": {
-    "name": "Futuristic mine"
+    "name": "Futuristic mine",
+    "desc": " "
   },
   "alucard": {
-    "name": "Alucard and the orphans"
+    "name": "Alucard and the orphans",
+    "desc": " "
   },
   "mira": {
     "name": "Mira Katsura",
@@ -59,15 +72,19 @@
     "desc": "Slavic Disney princess."
   },
   "steele": {
-    "name": "Peter Steele's portrait"
+    "name": "Peter Steele's portrait",
+    "desc": " "
   },
   "girl2": {
-    "name": "Barocco"
+    "name": "Barocco",
+    "desc": " "
   },
   "witch": {
-    "name": "Necromancer"
+    "name": "Necromancer",
+    "desc": " "
   },
   "girl6": {
-    "name": "Gentleness"
+    "name": "Gentleness",
+    "desc": " "
   }
 }

@@ -1,9 +1,15 @@
 {
+  "girl4": {
+    "name": "Wilgotny portret",
+    "desc": " "
+  },
   "azariel": {
-    "name": "Wampirzy cesarz"
+    "name": "Wampirzy cesarz",
+    "desc": " "
   },
   "environment": {
-    "name": "Górzysty krajobraz"
+    "name": "Górzysty krajobraz",
+    "desc": " "
   },
   "helena": {
     "name": "Helena",
@@ -18,22 +24,28 @@
     "desc": "Grafika koncepcyjna postaci do autorskiego opowiadania fantasy/science fiction."
   },
   "castle": {
-    "name": "Samotny zamek w górach"
+    "name": "Samotny zamek w górach",
+    "desc": " "
   },
   "elf": {
-    "name": "Projekt elfa"
+    "name": "Projekt elfa",
+    "desc": " "
   },
   "girl1": {
-    "name": "Kobieta w satynowej koszuli"
+    "name": "Kobieta w satynowej koszuli",
+    "desc": " "
   },
   "girl3": {
-    "name": "Portret dziewczyny w turbanie"
+    "name": "Portret dziewczyny w turbanie",
+    "desc": " "
   },
   "girl5": {
-    "name": "Dziewczyna w złotej koronie"
+    "name": "Dziewczyna w złotej koronie",
+    "desc": " "
   },
   "mine": {
-    "name": "Futurystyczna kopalnia"
+    "name": "Futurystyczna kopalnia",
+    "desc": " "
   },
   "alucard": {
     "name": "Alucard i sieroty",
@@ -60,15 +72,19 @@
     "desc": "Słowiańska księżniczka wykonana kreską Walta Disneya."
   },
   "steele": {
-    "name": "Portret Petera Steela"
+    "name": "Portret Petera Steela",
+    "desc": " "
   },
   "girl2": {
-    "name": "Barok"
+    "name": "Barok",
+    "desc": " "
   },
   "witch": {
-    "name": "Nekromantka"
+    "name": "Nekromantka",
+    "desc": " "
   },
   "girl6": {
-    "name": "Delikatność"
+    "name": "Delikatność",
+    "desc": " "
   }
 }
