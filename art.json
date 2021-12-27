@@ -29,6 +29,7 @@
     { "image": "/girl2.png", "key": "girl2", "cols": 0.9 },
     { "image": "/witch.png", "key": "witch", "cols": 1.2 },
 
-    { "image": "/girl6.png", "key": "girl6", "cols": 1.4}
+    { "image": "/girl6.png", "key": "girl6", "cols": 1.4},
+    { "image": "/war.png", "key": "war", "cols": 2.6}
   ] 
 }
