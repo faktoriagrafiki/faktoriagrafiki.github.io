@@ -5,7 +5,7 @@ import Content from './components/Content/Content'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
 
 function App() {
