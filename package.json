@@ -12,6 +12,7 @@
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "classnames": "^2.3.1",
+    "cypress": "^9.2.0",
     "i18next": "^21.6.0",
     "node-sass": "^6.0.0",
     "react": "^17.0.2",
@@ -28,6 +29,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "cypress:open": "npx cypress open",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"

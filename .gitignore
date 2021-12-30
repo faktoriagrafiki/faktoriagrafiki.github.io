@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 *.aseprite
 notes
+/cypress/integration/1-*
+/cypress/integration/2-*
