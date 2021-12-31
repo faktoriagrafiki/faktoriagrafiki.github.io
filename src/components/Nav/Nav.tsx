@@ -7,11 +7,11 @@ import cx from 'classnames';
 
 function Nav() {
 
-  const { t } = useTranslation('common')
+  const { t, i18n } = useTranslation('common')
 
   useEffect(() => {
     const lang = getParam('l')
-    if (!!lang) {
+    if (!!lang && i18n.languages.includes(lang)) {
       setTimeout(() => i18next.changeLanguage(lang))
     }
   }, [])
