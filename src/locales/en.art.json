@@ -90,5 +90,21 @@
   "war": {
     "name": "War against the government",
     "desc": "The future of Poland - times when civilians had to take matters into their own hands."
+  },
+  "blossom": {
+    "name": "Cherry blossom in white satin",
+    "desc": "Naruto OC."
+  }, 
+  "cat": {
+    "name": "British shorthair",
+    "desc": "British shorthair cat illustraition."
+  },
+  "reddragon": {
+    "name": "Red dragon",
+    "desc": "Portrait of an eastern ruler."
+  }, 
+  "jinx": {
+    "name": "Jinx",
+    "desc": "A character from the Arcane series."
   }
 }

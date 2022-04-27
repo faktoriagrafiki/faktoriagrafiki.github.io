@@ -90,5 +90,21 @@
   "war": {
     "name": "Wojna z rządem",
     "desc": "Przyszłość polski - czasy w których cywile musieli wziąć sprawy w swoje ręce."
+  },
+  "blossom": {
+    "name": "Kwiat wiśni otulony bielą",
+    "desc": "Ilustracja autorskiej OC do uniwersum Naruto."
+  }, 
+  "cat": {
+    "name": "Kot brytyjski",
+    "desc": "Ilustracja kota brytyjskiego."
+  },
+  "reddragon": {
+    "name": "Czerwony smok",
+    "desc": "Portret azjatyckiej władczyni."
+  }, 
+  "jinx": {
+    "name": "Jinx",
+    "desc": "Postać z animacji Arcane."
   }
 }
