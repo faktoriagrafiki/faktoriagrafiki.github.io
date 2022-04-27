@@ -1,6 +1,11 @@
 {
   "pieces": [
 
+    { "image": "/jinx.png", "key": "jinx", "cols": 1.0},
+    { "image": "/reddragon.png", "key": "reddragon", "cols": 1.0},
+    { "image": "/blossom.png", "key": "blossom", "cols": 0.8},
+    { "image": "/cat.png", "key": "cat", "cols": 1.2},
+
     { "image": "/girl4.png", "key": "girl4", "cols": 0.9 },
     { "image": "/azariel.png", "key": "azariel", "cols": 1.2 },
     { "image": "/environment.png", "key": "environment", "cols": 1.9 },
@@ -31,5 +36,6 @@
 
     { "image": "/girl6.png", "key": "girl6", "cols": 1.4},
     { "image": "/war.png", "key": "war", "cols": 2.6}
+
   ] 
 }
